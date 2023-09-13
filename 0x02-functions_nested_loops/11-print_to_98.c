@@ -1,5 +1,5 @@
 #include <stdio.h>
-	#include "main.h"
+#include "main.h"
 
 
 /**
@@ -7,11 +7,10 @@
  * followed by a new line
  * @n: print from this number
  * Description: This function takes an integer 'n' as input and prints all
- * natural numbers from 'n' to 98, inclusive. It separates the numbers by
- * commas and spaces and terminates the line with a newline character.
+ * natural numbers from 'n' to 98, inclusive.
  */
-	void print_to_98(int n)
-	{
+void print_to_98(int n)
+{
 		int i, j;
 
 
@@ -33,4 +32,4 @@
 				else if (j == 98)
 					printf("%d\n", j);
 			}
-		}
+}
