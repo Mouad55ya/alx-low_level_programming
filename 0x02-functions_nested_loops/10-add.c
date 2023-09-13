@@ -1,20 +1,16 @@
 #include "main.h"
 
 
-	/**
-	 * add - adds two integers and returns the result
-	 * @a: int to be added to b
-	 * @b: int to be added to a
-	 * Return: sum of a and b
-	 */
-	int add(int a, int b)
-	{
-		int c;
+/**
+ * add - adds two integers and returns the result
+ * @n1: the first number to be competed
+ * @n2: the second number to be competed
+ * Return: sum of n1 and n2
+*/
+int add(int n1, int n2)
+{
 
+return (n1 + n2);
 
-		c = a + b;
-
-
-		return (c);
-	}
+}
 
