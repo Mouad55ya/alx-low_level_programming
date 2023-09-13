@@ -2,11 +2,14 @@
 	#include "main.h"
 
 
-	/**
-	 * print_to_98 - prints all natural numbers from n to 98,
-	 * followed by a new line
-	 * @n: print from this number
-	 */
+/**
+ * print_to_98 - prints all natural numbers from n to 98,
+ * followed by a new line
+ * @n: print from this number
+ * Description: This function takes an integer 'n' as input and prints all
+ * natural numbers from 'n' to 98, inclusive. It separates the numbers by
+ * commas and spaces and terminates the line with a newline character.
+ */
 	void print_to_98(int n)
 	{
 		int i, j;
@@ -31,5 +34,3 @@
 					printf("%d\n", j);
 			}
 		}
-	}
-
