@@ -6,7 +6,7 @@
  * @str: char
  * Return: 0
  */
-char *_abdup(char *str)
+char *_strdup(char *str)
 {
     char *S;
     int a, b = 0;
